@@ -202,7 +202,7 @@ public final class RSAUtil {
      */  
     public static void main(String[] args) throws Exception {  
 //    	generateKeyPair();
-        String test = "hello world";  
+        String test = "asdasd | hwhwhh";  
         byte[] en_test = encrypt(getKeyPair().getPublic(),test.getBytes());  
         byte[] de_test = decrypt(getKeyPair().getPrivate(),en_test);
         
